@@ -1,7 +1,11 @@
-# day 2 with flutter
+# My second day learning flutter
 
 <h1 align="center">
- <img src="./git/images/welcome.png" alt="Delivery" />
+ <img 
+    src="./git/images/welcome.png"
+    alt="Delivery"
+    height="400"
+  />
 </h1>
 A new Flutter project.
 
