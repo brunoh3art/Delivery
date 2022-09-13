@@ -14,12 +14,16 @@ class MyApp extends StatelessWidget {
       title: 'Delivery',
       debugShowCheckedModeBanner: false,
       debugShowMaterialGrid: false,
-      initialRoute: '/',
-      theme: ThemeData(primarySwatch: Colors.orange, fontFamily: "Inter"),
+      initialRoute: '/login',
+      theme: ThemeData(
+        primarySwatch: Colors.orange,
+        fontFamily: "Inter",
+      ),
       routes: {
         '/': (context) => const Welcome(),
         '/home': (context) => const HomeScreen(),
-        '/login': (context) => const SignIn()
+        '/login': (context) => const SignIn(),
+        '/signup': (context) => const SignUp()
       },
     );
   }

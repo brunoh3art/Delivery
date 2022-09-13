@@ -1,3 +1,4 @@
+import 'package:delivery/constants.dart';
 import 'package:flutter/material.dart';
 
 class WelcomeHeader extends StatefulWidget {
@@ -11,11 +12,10 @@ class _WelcomeHeaderState extends State<WelcomeHeader> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: double.infinity,
       height: 442.0,
       alignment: Alignment.center,
       decoration: const BoxDecoration(
-        color: Colors.orange,
+        color: primaryColor,
         image: DecorationImage(
           alignment: Alignment(0, -1.9),
           image: AssetImage("assets/Vector.png"),

@@ -1,5 +1,6 @@
 // ignore_for_file: file_names
 
+import 'package:delivery/constants.dart';
 import 'package:flutter/material.dart';
 
 class ButtonSolid extends StatelessWidget {
@@ -19,7 +20,7 @@ class ButtonSolid extends StatelessWidget {
           color: Colors.white,
           fontWeight: FontWeight.w600,
         ),
-        backgroundColor: Colors.orange,
+        backgroundColor: primaryColor,
         minimumSize: const Size(double.infinity, 61),
         shape: const RoundedRectangleBorder(
           borderRadius: BorderRadius.all(Radius.circular(4)),

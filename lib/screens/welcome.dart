@@ -1,5 +1,5 @@
-import 'package:delivery/components/Buttons/buttons.dart';
 import 'package:delivery/components/components.dart';
+import 'package:delivery/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -15,7 +15,7 @@ class _WelcomeState extends State<Welcome> {
   Widget build(BuildContext context) {
     SystemChrome.setSystemUIOverlayStyle(
       const SystemUiOverlayStyle(
-        statusBarColor: Colors.orange,
+        statusBarColor: primaryColor,
         systemNavigationBarColor: Colors.white,
         statusBarIconBrightness: Brightness.light,
         statusBarBrightness: Brightness.light,
@@ -104,7 +104,7 @@ class RowInfo extends StatelessWidget {
         ),
         Icon(
           Icons.arrow_forward,
-          color: Colors.amber,
+          color: primaryColor,
           size: 24,
         ),
         SizedBox(
@@ -120,7 +120,7 @@ class RowInfo extends StatelessWidget {
         ),
         Icon(
           Icons.arrow_forward,
-          color: Colors.amber,
+          color: primaryColor,
           size: 24,
         ),
         SizedBox(
